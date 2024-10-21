@@ -2,7 +2,10 @@
 
 Build an application to create an all-star teams based on coach's stat preferences.
 
-- The input will be two coaches selection criteria. Example:
+- The input will be two coaches selection criteria.
+
+  Example:
+  
    fn(coach1_pref[], coach2_pref[]) where coach1_pref = `['points', 'rebound', 'block']` and coach2_pref = `['points', 'assist', 'rebound']`.
 - A coach can pick up to three stats to use as selection criteria.
 - The application will ingest and analyze provided player season level statistics.

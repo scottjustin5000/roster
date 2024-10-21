@@ -2,7 +2,8 @@
 
 Build an application to create an all-star teams based on coach's stat preferences.
 
-- The input will be two coaches selection criteria. Example: fn(coach1_pref[], coach2_pref[]) where coach1_pref = `['points', 'rebound', 'block']` and coach2_pref = `['points', 'assist', 'rebound']`.
+- The input will be two coaches selection criteria. Example:
+   fn(coach1_pref[], coach2_pref[]) where coach1_pref = `['points', 'rebound', 'block']` and coach2_pref = `['points', 'assist', 'rebound']`.
 - A coach can pick up to three stats to use as selection criteria.
 - The application will ingest and analyze provided player season level statistics.
 - The application will determine the top players based on the coach's criteria. If the criteria is `['points', 'rebound', 'block']`, then players should be selected based on those three statistics and assigned accordingly. However it is important to keep in mind that the order of the coach's statistic preference matters. The 0 index stat criteria should take precedence over subsequent criteria, but all should impact the selection.
